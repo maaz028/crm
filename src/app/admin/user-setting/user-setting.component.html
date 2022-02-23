@@ -1,0 +1,1470 @@
+<div>
+  <div class="page-wrapper">
+    <!-- Page Content -->
+    <div class="content container-fluid">
+      <div>
+        <nav style="display: inline-block" id="contact">
+          <span
+            style="cursor: pointer"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            data-content="Here you overview all registered customers, their balances, and the sales statistics. With customer templates you can quickly create new customers having common details defined by the template.."
+          >
+            Contacts
+          </span>
+
+          <a
+            class="nav-link d-inline-block"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            tabindex="0"
+            role="button"
+            style="color: #007e87"
+            ><b>All</b>
+            <i
+              data-icon-name="ChevronDown"
+              role="presentation"
+              aria-hidden="true"
+              class="ms-Icon root-32 css-58 ms-Button-menuIcon menuIcon-55"
+              ></i
+            ></a
+          >
+
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Recently Viewed</a
+            ><a href="#" class="dropdown-item">Items I'm following</a
+            ><a href="#" class="dropdown-item">All Contacts</a
+            ><a href="#" class="dropdown-item"
+              >Contacts added in the last 24 hours</a
+            ><a href="#" class="dropdown-item"
+              >Contacts added in the last 7 days</a
+            ><a href="#" class="dropdown-item"
+              >Contacts with no notes in the last month</a
+            ><a href="#" class="dropdown-item"
+              >Contacts with no notes in the last 7 days</a
+            >
+          </div>
+        </nav>
+
+        <div class="d-inline-block">
+          <div
+            class="d-inline-block"
+            role="heading"
+            aria-level="2"
+            title="all"
+            class="dropdown"
+          >
+            <!-- <span
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              tabindex="0"
+              role="button"
+              >All
+              <i
+                data-icon-name="ChevronDown"
+                role="presentation"
+                aria-hidden="true"
+                class="ms-Icon root-32 css-58 ms-Button-menuIcon menuIcon-55"
+                ></i
+              ></span-->
+
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Recently Viewed</a
+              ><a href="#" class="dropdown-item">Items I'm following</a
+              ><a href="#" class="dropdown-item">All Contacts</a
+              ><a href="#" class="dropdown-item"
+                >Contacts added in the last 24 hours</a
+              ><a href="#" class="dropdown-item"
+                >Contacts added in the last 7 days</a
+              ><a href="#" class="dropdown-item"
+                >Contacts with no notes in the last month</a
+              ><a href="#" class="dropdown-item"
+                >Contacts with no notes in the last 7 days</a
+              >
+            </div>
+
+            <div class="nav p-0 m-0">
+              <nav class="nav p-0 m-0" id="mainnav">
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#new-user"
+                  href="#"
+                >
+                  <span>
+                    <i
+                      class="ms-Icon ms-Icon--Add"
+                      style="color: #007e87"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                  <span style="margin-left: 3px">New</span></a
+                >
+                <a
+                  class="nav-link"
+                  href="#system-user"
+                  data-toggle="modal"
+                  data-target=""
+                  id="delete"
+                  ><span
+                    ><i
+                      class="ms-Icon ms-Icon--Delete"
+                      style="color: #007e87"
+                    ></i
+                  ></span>
+                  <span>Delete</span></a
+                >
+
+                <a
+                  class="
+                    nav-link
+                    d-none d-sm-block d-md-block d-lg-block d-xl-block
+                  "
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  tabindex="0"
+                  id="process"
+                  role="button"
+                >
+                  <span style="padding-right: 4px">Process</span>
+                  <i
+                    data-icon-name="ChevronDown"
+                    role="presentation"
+                    aria-hidden="true"
+                    class="
+                      ms-Icon
+                      root-32
+                      css-58
+                      ms-Button-menuIcon
+                      menuIcon-55
+                    "
+                    ></i
+                  >
+                  <div class="dropdown-menu" id="dropdown">
+                    <a href="#" class="dropdown-item"
+                      >Register Customer Payments</a
+                    ><a href="#" class="dropdown-item">Sent Email</a>
+                  </div>
+                </a>
+
+                <a class="nav-link d-none d-md-none d-lg-block d-xl-block">
+                  <span
+                    class="dropdown2"
+                    type="button"
+                    id="report"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="1"
+                  >
+                    <span style="padding-right: 4px">Peport</span>
+                    <i
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    >
+                  </span>
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item"
+                      >Customer - Order Summary</a
+                    ><a href="#" class="dropdown-item">Customer - Sales List</a>
+                  </div>
+                </a>
+
+                <a class="nav-link d-none d-md-none d-lg-block d-xl-block">
+                  <span
+                    class="dropdown3"
+                    type="button"
+                    id="newDocument"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span style="padding-right: 4px">New Documents</span>
+                    <i
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Sales Quote</a
+                    ><a href="#" class="dropdown-item">Sales Invoice</a>
+                    <a href="#" class="dropdown-item">Sales Order</a
+                    ><a href="#" class="dropdown-item">Sales Credit Memo</a>
+                    <a href="#" class="dropdown-item">Reminder</a>
+                  </div>
+                </a>
+                <a class="nav-link d-none d-md-none d-lg-none d-xl-block">
+                  <span
+                    class="dropdown4"
+                    type="button"
+                    id="customer"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Contacts</span>
+                    <i
+                      style="margin-left: 5px"
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Ledger Entries</a
+                    ><a href="#" class="dropdown-item">Statistics</a>
+                    <a href="#" class="dropdown-item">Comments</a
+                    ><a href="#" class="dropdown-item">Approvel</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+                <a class="nav-link d-none d-md-none d-lg-none d-xl-block">
+                  <span
+                    class="dropdown4"
+                    type="button"
+                    id="customer"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Nevigation</span>
+                    <i
+                      style="margin-left: 5px"
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Ledger Entries</a
+                    ><a href="#" class="dropdown-item">Statistics</a>
+                    <a href="#" class="dropdown-item">Comments</a
+                    ><a href="#" class="dropdown-item">Approvel</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+
+                <a class="nav-link">
+                  <span
+                    class="dropdown4"
+                    type="button"
+                    id=""
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="ms-Icon ms-Icon--More"></i>
+                  </span>
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Price and Discounts</a
+                    ><a href="#" class="dropdown-item">Action </a>
+                    <a href="#" class="dropdown-item">Related</a
+                    ><a href="#" class="dropdown-item">Reports</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="icons" style="display: inline-block; float: right">
+          <ul class="icon" style="display: inline-block; color: #505c6d">
+            <li class="" href="">
+              <span
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                ><i
+                  class="ms-Icon ms-Icon--Share"
+                  aria-hidden="true"
+                  title="Share the page with other user"
+                ></i
+              ></span>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="#" class="dropdown-item">open in Exel</a
+                ><a href="#" class="dropdown-item">Edit in Exel</a>
+                <a href="#" class="dropdown-item">Share to Teams</a>
+              </div>
+            </li>
+
+            <li class="" href="">
+              <span
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i
+                  class="ms-Icon ms-Icon--Filter"
+                  aria-hidden="true"
+                  title="Show pane"
+                ></i>
+              </span>
+            </li>
+
+            <li
+              href=""
+              class="dropdown"
+              type="button"
+              id="dropdownMenuButton1"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i
+                class="ms-Icon ms-Icon--GlobalNavButton"
+                aria-hidden="true"
+                CollapseMenu
+                title="View Layouts Options"
+              ></i>
+            </li>
+
+            <li
+              href=""
+              class="dropdown"
+              type="button"
+              id="dropdownMenuButton1"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i
+                class="ms-Icon ms-Icon--Info"
+                aria-hidden="true"
+                title="Collapse the Factbox pane"
+              ></i>
+            </li>
+
+            <li
+              class="dropdown"
+              type="button"
+              id="dropdownMenuButton1"
+              data-toggle="dropdown"
+              aria-expanded="false"
+              href=""
+            >
+              <i
+                class="ms-Icon ms-Icon--FullScreen"
+                aria-hidden="true"
+                title=" Show wide Layouts View"
+              ></i>
+            </li>
+
+            <li
+              class="dropdown"
+              type="button"
+              id="dropdownMenuButton1"
+              data-toggle="dropdown"
+              aria-expanded="false"
+              href=""
+            >
+              <i
+                class="ms-Icon ms-Icon--SingleBookmark"
+                title="Add Bookmark to your Role Center"
+              ></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <!-- Page Header -->
+
+      <!-- /Page Header -->
+
+      <!-- Content Starts -->
+      <div class="row">
+        <div class="tablemain col-12 col-sm-12 col-md-12 col-lg-8 p-0 m-0">
+          <div
+            class="
+              table-wrapper-scroll-y table-wrapper-scroll-x
+              my-custom-scrollbar
+              w-100
+            "
+          >
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive text-nowrap">
+                  <table class="table w-100" >
+                    <thead>
+                      <tr>
+                        <th>
+                          N0
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+
+                        <th>
+                          Name
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                      
+                       
+                        <th>
+                          contact
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                        <th>
+                          Phone
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                        <th>
+                          Email
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                        <th>
+                          Tag List
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr *ngFor="let fees of lstFees; let i = index">
+                        <td class="checkBox">
+                          <!-- <label class="container-checkbox">
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                          </label> -->
+                          {{ i }}
+                        </td>
+                        <td>
+                          <!-- <a href="#" class="avatar"
+                            ><img
+                              alt=""
+                              src="assets/img/profiles/avatar-11.jpg"
+                          /></a> -->
+                          <a
+                            style="color: black"
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#new-user"
+                            >{{ fees.fullname }}</a
+                          >
+                        </td>
+                      
+                        <td>{{ fees.title }}</td>
+                        <td>
+                          {{ fees.phone }}
+                        </td>
+                        <td>{{ fees.email }}</td>
+                        <td>
+                          <!-- <span class="badge badge-gradient-success">{{
+                            fees.taglist
+                          }}</span> -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightsidebaricone col-4 p-0 m-0 bg-white pl-3">
+          <ul style="cursor: pointer" class="nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                type="button"
+                (click)="hideBlock()"
+                href="#detail"
+                data-toggle="tab"
+                ><span
+                  ><i
+                    aria-hidden="true"
+                    title="Collapse the Factbox pane"
+                    class="ms-Icon ms-Icon--Info mr-1 d-inline-block"
+                  ></i
+                ></span>
+                <h4 class="d-inline-block">Details</h4></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-inline-block"
+                (click)="showBlocks()"
+                href="#task-related"
+                data-toggle="tab"
+                ><span
+                  ><i
+                    aria-hidden="true"
+                    title="Collapse the Factbox pane"
+                    class="ms-Icon ms-Icon--Attach d-inline-block"
+                  ></i
+                ></span>
+                <h4 class="d-inline-block">Attachments</h4></a
+              >
+            </li>
+          </ul>
+          <div class="table-wrapper-scroll-y my-custom-scrollbar">
+            <h3 style="font-size: 16px; margin-left: rem; font-size: 16px">
+              User Setting
+            </h3>
+            <br />
+            <div class="row">
+              <div class="col-4 ml-4">Customer No</div>
+              <div class="col-md-4 offset-md-3 offset-sm-1">1000</div>
+            </div>
+
+            <div class="container mt-4">
+              <div class="row text-white">
+                <div class="col-4 mb-1">
+                  <div class="card-body c2">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+
+                <div class="col-4 mb-1">
+                  <div class="card-body c2 d-block">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+                <div class="col-4 mb-1">
+                  <div class="card-body c2">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+
+                <div class="col-4 mb-1">
+                  <div class="card-body c2">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+                <div class="col-4 mb-1">
+                  <div class="card-body c2">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card-body c2 d-block">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card-body c2">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card-body c2 d-block">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card-body c2 d-block">
+                    <div><h4 class="float-right"></h4></div>
+                    <div><p class="mt-4"></p></div>
+                  </div>
+                </div>
+
+                <br />
+                <div _ngcontent-ybk-c27="" class="line"></div>
+              </div>
+            </div>
+            <!--system users Modal -->
+
+            <div
+              class="modal right fade"
+              id="new-user"
+              tabindex="-1"
+              role="dialog"
+              aria-modal="true"
+            >
+              <div class="modal-dialog" role="document">
+                <button
+                  type="button"
+                  class="close md-close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-content">
+                  <!-- General navbar -->
+                  <!-- <div class="generalNavbar">
+                    <div class="iconbackward">
+                      <a href="#"
+                        ><i class="icon-arrow-left-circle" id="backicon"></i
+                      ></a>
+                    </div>
+                    <div class="navbaritem">
+                      <ul>
+                        <li>
+                          <a href=""><i class="fa fa-edit fa-sm"></i></a>
+                        </li>
+                        <li>
+                          <a href=""><i class="icon-action-redo"></i></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa fa-plus fa-sm" aria-hidden="true"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa fa-trash fa-sm" aria-hidden="true"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div> -->
+                  <!-- End General navbar -->
+                  <!-- Specific navbar -->
+
+                  <!-- <div _ngcontent-ver-c27="" class="line1"></div> -->
+<!-- 
+                  <div class="spedificNavbar">
+                    <ul>
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Document</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Convert</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Event</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Activity</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Deal</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <span class="dropbtn">Project</span>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div> -->
+                  <div _ngcontent-ver-c27="" class="line1"></div>
+
+                  <div class="whole">
+                    <div class="new">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          data-dismiss="modal"
+                          class="close xs-close"
+                        >
+                          ×
+                        </button>
+                        <div class="row w-100">
+                          <div class="col-md-12 account d-flex">
+                            <div>
+                              <h3 class="mb-0">John </h3>
+                              <!-- <span class="modal-title">John Doe</span
+                              ><span class="rating-star"
+                                ><i
+                                  aria-hidden="true"
+                                  class="fa fa-star"
+                                ></i></span
+                              ><span class="lock"
+                                ><i aria-hidden="true" class="fa fa-lock"></i
+                              ></span> -->
+                            </div>
+                          </div>
+                          <div class="imgClass">
+                            <img
+                              src="assets/img/c-logo.png"
+                              alt="User"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-md-5 text-right">
+                            <ul class="list-unstyled list-style-none">
+                              <li class="dropdown list-inline-item">
+                                <br /><a
+                                  href="#"
+                                  role="button"
+                                  data-toggle="dropdown"
+                                  aria-expanded="false"
+                                  class="dropdown-toggle"
+                                >
+                                  Actions
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a href="#" class="dropdown-item"
+                                    >Edit This Company</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Change Organization Image</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Delete This Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Change Record Owner</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Generate Merge Document</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Print This Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Task For Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Event For Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add Activity Set To Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Contact For Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Opportunity For Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Opportunity For Organization</a
+                                  ><a href="#" class="dropdown-item"
+                                    >Add New Project For Organization</a
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <ul
+                        class="
+                          nav
+                          nav-tabs
+                          nav-tabs-solid
+                          nav-tabs-rounded
+                          nav-justified
+                        "
+                      >
+                        <!-- <li  class="nav-item">
+                    <a
+                      
+                      type="button"
+                      (click)="hideBlock()"
+                      href="#task-details"
+                      data-toggle="tab"
+                      class="nav-link active"
+                      >Details</a
+                    >
+                  </li>
+                  <li  class="nav-item">
+                    <a
+                      
+                      type="button"
+                      (click)="showBlocks()"
+                      href="#task-related"
+                      data-toggle="tab"
+                      class="nav-link"
+                      >Related</a
+                    >
+                  </li>
+                  <li  class="nav-item">
+                    <a
+                      
+                      type="button"
+                      (click)="showBlock2()"
+                      href="#task-activity"
+                      data-toggle="tab"
+                      class="nav-link"
+                      >Activity</a
+                    >
+                  </li> -->
+                        <!-- <li  class="nav-item">
+                <a
+                  
+                  type="button"
+                  (click)="hideBlock()"
+                  href="#task-news"
+                  data-toggle="tab"
+                  class="nav-link"
+                  >News</a
+                >
+              </li> -->
+                      </ul>
+
+                      <div [style.display]="display" class="blocks">
+                        <div class="row pt-2">
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-danger
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">
+                                  Companies
+                                </h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-info
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">Deals</h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-success
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">
+                                  Projects
+                                </h4>
+                                <span>1</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row pt-3">
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-success
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">
+                                  Contacts
+                                </h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-danger
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">Notes</h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-info
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">Files</h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div [style.display]="display2" class="blocks">
+                        <div class="row pt-2">
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-danger
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">
+                                  Total Activities
+                                </h4>
+                                <span>2</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div
+                              class="
+                                card
+                                bg-gradient-info
+                                card-img-holder
+                                text-white
+                                h-100
+                              "
+                            >
+                              <div class="card-body">
+                                <img
+                                  src="assets/img/circle.png"
+                                  alt="circle-image"
+                                  class="card-img-absolute"
+                                />
+                                <h4 class="font-weight-normal mb-3">
+                                  Last Activity
+                                </h4>
+                                <span>1</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card due-dates">
+                        
+                      </div>
+                    </div>
+                    <div class="new2">
+                      <div class="modal-body">
+                        <div class="task-infos">
+                          <div class="tab-content">
+                            <div id="task-details" class="tab-pane show active">
+                              <div class="crms-tasks">
+                                <div class="Inputs">
+                                  <div class="top">
+                                    <h2>General</h2>
+                                  </div>
+                                  <div class="line"></div>
+                                  <div class="row row2">
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">No.</label
+                                      ><input
+                                        type="text"
+                                      
+                                        value="1000"
+                                        aria-label="First name"
+                                        name="no"
+                                        ngmodel=""
+                                        class="form-control special"
+                                      />
+                                    </div>
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Name</label
+                                      ><input
+                                        type="text"
+                                       
+                                        value="Adatum Corporation"
+                                        aria-label="First name"
+                                        name="no"
+                                        ngmodel=""
+                                        class="form-control special"
+                                      />
+                                    </div>
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Company</label
+                                      ><input
+                                        type="text"
+                                        disabled=""
+                                        value=""
+                                        aria-label="First name"
+                                        name="no"
+                                        ngmodel=""
+                                        class="form-control special"
+                                      />
+                                    </div>
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Title</label
+                                      ><input
+                                        type="text"
+                                        disabled=""
+                                        value=""
+                                        aria-label="First name"
+                                        name="no"
+                                        ngmodel=""
+                                        class="form-control special"
+                                      />
+                                    </div>
+                                  </div>
+
+                                  <div class="top" style="margin-top: 37px">
+                                    <h2>User Setting</h2>
+                                  </div>
+                                  <div class="line"></div>
+                                  <div class="row row2">
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Admin</label
+                                      ><div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label" for="flexSwitchCheckChecked"
+    ></label
+  >
+</div>
+                                    </div>
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab"
+                                        >Creator</label
+                                      ><div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label" for="flexSwitchCheckChecked"
+    ></label
+  >
+</div>
+                                    </div>
+                                    <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Approver</label
+                                      ><div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label" for="flexSwitchCheckChecked"
+    ></label
+  >
+</div>
+                                    </div>
+                                 
+                                  
+                                  <div class="top" style="margin-top: 37px">
+                                    <div class="tasks__item crms-task-item">
+                             
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- modal-content -->
+              </div>
+              <!-- modal-dialog -->
+            </div>
+          </div>
+          <!-- modal-content -->
+        </div>
+        <!-- modal-dialog -->
+      </div>
+      <!-- modal -->
+    </div>
+
+    <!-- /Content End -->
+  </div>
+</div>

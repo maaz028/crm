@@ -1,0 +1,58 @@
+
+<!-- Main Wrapper -->
+<div class="main-wrapper">
+
+    <div class="account-content">
+
+        <div class="container">
+
+            <!-- Account Logo -->
+            <div class="account-logo">
+                <a routerLink =""><img src="assets/img/logo.png" alt="Dreamguy's Technologies"></a>
+            </div>
+            <!-- /Account Logo -->
+
+            <div class="account-box">
+                <div class="account-wrapper">
+                    <h3 class="account-title">Login</h3>
+                    <p class="account-subtitle">Access to our dashboard</p>
+
+                    <!-- Account Form -->
+                    <form [formGroup]="login2"   >
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input  class="form-control" type="text" formControlName="userName">
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col">
+                                    <label>Password</label>
+                                </div>
+                                <div class="col-auto">
+                                    <a class="text-muted" routerLink ="/forgot-password">
+                                        Forgot password?
+                                    </a>
+                                </div>
+                            </div>
+                            <input  class="form-control" type="password" formControlName="password">
+                        </div>
+                        <div class="form-group text-center" #loginBtn>
+                            <button class="btn btn-primary account-btn" type="submit" (click)="LoginCheck(login2)" [disabled]="login2.invalid"  >Login</button>
+                        </div>
+                        <div class="spinner text-center my-2" #spinner >
+                            <div class="spinner-border text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                        </div>
+                        <div class="account-footer">
+                            <p>Don't have an account yet? <a routerLink ="/register">Sign Up</a></p>
+                        </div>
+                    </form>
+                    <!-- /Account Form -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main Wrapper -->

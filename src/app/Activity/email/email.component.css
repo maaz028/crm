@@ -1,0 +1,97 @@
+body{
+  background-color: white;
+}
+.container-fluid{
+  background: white;
+  border: 1px solid #dfdbdb;
+  padding: 0%;
+  height: auto;
+
+
+}
+.emailul{
+    list-style-type: none !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      margin-bottom: 0 !important;
+}
+.emailul li {
+  float: left;
+}
+
+.emailul li a {
+  display: block !important;
+  color: black !important;
+  padding: 10px !important;
+  text-decoration: none !important;
+}
+.new_email{
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.new_email1{
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.small_text{
+  font-size: 12px;
+  color: gray;
+  font-weight: 400;
+
+}
+.blue{
+  color:
+#0E86D4;
+  font-weight: 500;
+
+}
+.upperheader{
+  height: 25vh;
+  border: white 1px solid;
+
+}
+.line2{
+    height: 1px;
+  background-color: #dfdbdb;
+
+}
+.hidden{
+  display: none;
+}
+.hidden:hover{
+  visibility:visible;
+}
+.showdiv:hover .hidden{
+display: block;
+
+}
+.showdiv:hover .hidespan{
+display: none;
+
+}
+select{
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.email{
+
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+:host {
+  width: 80vw;
+  background-color: white;
+}
+
+.email {
+  background-color: white;
+ width: auto;
+ height: 90vh;
+
+}
+

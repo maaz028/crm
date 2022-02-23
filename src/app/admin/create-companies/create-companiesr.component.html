@@ -1,0 +1,1726 @@
+<div>
+    <div class="page-wrapper">
+      <!-- Page Content -->
+      <div class="content container-fluid">
+        <div>
+        <nav style="display: inline-block" id="contact">
+        <span style="cursor: pointer" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Here you overview all registered Users, their balances, and the sales statistics. With customer templates you can quickly create new Users having common details defined by the template..">
+           Users
+        </span>
+
+          <a
+            class="nav-link d-inline-block"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            tabindex="0"
+            role="button"
+            style="color: #007e87"
+            ><b>All</b>
+            <i
+              data-icon-name="ChevronDown"
+              role="presentation"
+              aria-hidden="true"
+              class="ms-Icon root-32 css-58 ms-Button-menuIcon menuIcon-55"
+              ></i
+            ></a
+          >
+
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Recently Viewed</a
+            ><a href="#" class="dropdown-item">Items I'm following</a
+            ><a href="#" class="dropdown-item">All Users</a
+            ><a href="#" class="dropdown-item"
+              >Users added in the last 24 hours</a
+            ><a href="#" class="dropdown-item"
+              >Users added in the last 7 days</a
+            ><a href="#" class="dropdown-item"
+              >Users with no notes in the last month</a
+            ><a href="#" class="dropdown-item"
+              >Users with no notes in the last 7 days</a
+            >
+          </div>
+        </nav>
+
+        <div class="d-inline-block">
+          <div
+            class="d-inline-block"
+            role="heading"
+            aria-level="2"
+            title="all"
+            class="dropdown"
+          >
+            <!-- <span
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              tabindex="0"
+              role="button"
+              >All
+              <i
+                data-icon-name="ChevronDown"
+                role="presentation"
+                aria-hidden="true"
+                class="ms-Icon root-32 css-58 ms-Button-menuIcon menuIcon-55"
+                ></i
+              ></span-->
+
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Recently Viewed</a
+              ><a href="#" class="dropdown-item">Items I'm following</a
+              ><a href="#" class="dropdown-item">All Users</a
+              ><a href="#" class="dropdown-item"
+                >Users added in the last 24 hours</a
+              ><a href="#" class="dropdown-item"
+                >Users added in the last 7 days</a
+              ><a href="#" class="dropdown-item"
+                >Users with no notes in the last month</a
+              ><a href="#" class="dropdown-item"
+                >Userswith no notes in the last 7 days</a
+              >
+            </div>
+
+            <div class="nav p-0 m-0">
+              <nav class="nav p-0 m-0" id="mainnav">
+       
+
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#new-user"
+                  href="#"
+                >
+                  <span>
+                    <i
+                      class="ms-Icon ms-Icon--Add"
+                      style="color: #007e87"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                  <span style="margin-left: 3px">New</span></a
+                >
+                <a
+                  class="nav-link"
+                 href="#system-user"
+                 data-toggle="modal"
+                data-target=""
+                id="delete"
+                  ><span
+                    ><i
+                      class="ms-Icon ms-Icon--Delete"
+                      style="color: #007e87"
+                    ></i
+                  ></span>
+                  <span>Disable</span></a
+                >
+                
+                <a
+                  class="nav-link d-none d-sm-block d-md-block d-lg-block d-xl-block"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  tabindex="0"
+                  id="process"
+                  role="button"
+                >
+                  <span style="padding-right: 4px">Process</span>
+                  <i
+                    data-icon-name="ChevronDown"
+                    role="presentation"
+                    aria-hidden="true"
+                    class="
+                      ms-Icon
+                      root-32
+                      css-58
+                      ms-Button-menuIcon
+                      menuIcon-55
+                    "
+                    ></i
+                  >
+                  <div class="dropdown-menu" id="dropdown">
+                    <a href="#" class="dropdown-item"
+                      >Register Users Payments</a
+                    ><a href="#" class="dropdown-item">Sent Email</a>
+                  </div>
+                </a>
+
+                <a class="nav-link d-none d-md-none d-lg-block d-xl-block">
+                  <span
+                    class="dropdown2"
+                    type="button"
+                    id="report"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="1"
+                  >
+                    <span style="padding-right: 4px">Report</span>
+                    <i
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    >
+                  </span>
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item"
+                      >Users - Order Summary</a
+                    ><a href="#" class="dropdown-item">Users - Sales List</a>
+                  </div>
+                </a>
+
+                <a class="nav-link d-none d-md-none d-lg-block d-xl-block">
+                  <span
+                    class="dropdown3"
+                    type="button"
+                    id="newDocument"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span style="padding-right: 4px">New Documents</span>
+                    <i
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+<!-- 
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Sales Quote</a
+                    ><a href="#" class="dropdown-item">Sales Invoice</a>
+                    <a href="#" class="dropdown-item">Sales Order</a
+                    ><a href="#" class="dropdown-item">Sales Credit Memo</a>
+                    <a href="#" class="dropdown-item">Reminder</a>
+                  </div> -->
+                </a>
+                <a class="nav-link d-none d-md-none d-lg-none d-xl-block">
+                  <span
+                    class="dropdown4"
+                    type="button"
+                    id="customer"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Contacts</span>
+                    <i
+                      style="margin-left: 5px"
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Ledger Entries</a
+                    ><a href="#" class="dropdown-item">Statistics</a>
+                    <a href="#" class="dropdown-item">Comments</a
+                    ><a href="#" class="dropdown-item">Approvel</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+                 <a class="nav-link d-none d-md-none d-lg-none d-xl-block">
+                  <span
+                    class="dropdown4"
+                    type="button"
+                    id="customer"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span>Navigation</span>
+                    <i
+                      style="margin-left: 5px"
+                      data-icon-name="ChevronDown"
+                      role="presentation"
+                      aria-hidden="true"
+                      class="
+                        ms-Icon
+                        root-32
+                        css-58
+                        ms-Button-menuIcon
+                        menuIcon-55
+                      "
+                      ></i
+                    ></span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Ledger Entries</a
+                    ><a href="#" class="dropdown-item">Statistics</a>
+                    <a href="#" class="dropdown-item">Comments</a
+                    ><a href="#" class="dropdown-item">Approvel</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+
+                <a class="nav-link">
+                  
+                   <span
+                    class="dropdown4"
+                    type="button"
+                    id=""
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  <i class="ms-Icon ms-Icon--More"></i>
+               
+                </span
+                  >
+
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">Price and Discounts</a
+                    ><a href="#" class="dropdown-item">Action
+                    </a>
+                    <a href="#" class="dropdown-item">Related</a
+                    ><a href="#" class="dropdown-item">Reports</a>
+                    <a href="#" class="dropdown-item">item References</a>
+                  </div>
+                </a>
+               
+              </nav>
+            </div>
+          </div>
+          </div>
+          <div
+            class="icons "
+            style="display: inline-block; float: right"
+          >
+            <ul
+              class="icon"
+              style="display: inline-block; color: #505c6d"
+            >
+              <li class="" href="">
+                <span
+                  class="dropdown"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  ><i
+                    class="ms-Icon ms-Icon--Share"
+                    aria-hidden="true"
+                    title="Share the page with other user"
+                  ></i
+                ></span>
+                
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a href="#" class="dropdown-item">open in Exel</a
+                    ><a href="#" class="dropdown-item">Edit in Exel</a>
+                    <a href="#" class="dropdown-item">Share to Teams</a
+                    >
+                  </div>
+              </li>
+
+              <li class="" href="">
+                <span
+                  class="dropdown"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i
+                    class="ms-Icon ms-Icon--Filter"
+                    aria-hidden="true"
+                    title="Show pane"
+                  ></i>
+                </span>
+              </li>
+
+              <li
+                href=""
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i
+                  class="ms-Icon ms-Icon--GlobalNavButton"
+                  aria-hidden="true"
+                  CollapseMenu
+                  title="View Layouts Options"
+                ></i>
+              </li>
+
+              <li
+                href=""
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i
+                  class="ms-Icon ms-Icon--Info"
+                  aria-hidden="true"
+                  title="Collapse the Factbox pane"
+                ></i>
+              </li>
+
+              <li
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                href=""
+              >
+                <i
+                  class="ms-Icon ms-Icon--FullScreen"
+                  aria-hidden="true"
+                  title=" Show wide Layouts View"
+                ></i>
+              </li>
+
+              <li
+                class="dropdown"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                href=""
+              >
+                <i
+                  class="ms-Icon ms-Icon--SingleBookmark"
+                  title="Add Bookmark to your Role Center"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+     
+
+    
+     
+      <!-- <div class="crms-title row bg-white">
+        <div class="col">
+          <h3 class="page-title m-0">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+              <i class="feather-database"></i>
+            </span>
+            Companies
+          </h3>
+        </div>
+        <div class="col text-right">
+          <ul class="breadcrumb bg-white float-right m-0 pl-0 pr-0">
+            <li class="breadcrumb-item">
+              <a routerLink="/dashboard">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item active">Companies</li>
+          </ul>
+        </div>
+      </div> -->
+
+      <!-- Page Header -->
+      <!-- <div class="page-header pt-3 mb-0">
+        <div class="row">
+          <div class="col">
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle recently-viewed"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Recently Viewed</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Recently Viewed</a>
+                <a class="dropdown-item" href="#">Items I'm following</a>
+                <a class="dropdown-item" href="#">All Companies</a>
+                <a class="dropdown-item" href="#"
+                  >Companies added in the last 24 hours</a
+                >
+                <a class="dropdown-item" href="#"
+                  >Companies added in the last 7 days</a
+                >
+                <a class="dropdown-item" href="#"
+                  >Companies with no notes in the last month</a
+                >
+                <a class="dropdown-item" href="#"
+                  >Companies with no notes in the last 7 days</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col text-right">
+            <ul class="list-inline-item pl-0">
+              <li class="nav-item dropdown list-inline-item add-lists">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="profileDropdown"
+                  href="#"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <div class="nav-profile-text">
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                  </div>
+                </a>
+                <div
+                  class="dropdown-menu navbar-dropdown"
+                  aria-labelledby="profileDropdown"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#add-new-list"
+                    >Add New List View</a
+                  >
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <button
+                  class="
+                    add
+                    btn btn-gradient-primary
+                    font-weight-bold
+                    text-white
+                    todo-list-add-btn
+                    btn-rounded
+                  "
+                  id="add-task"
+                  data-toggle="modal"
+                  data-target="#add_company"
+                >
+                  New Company
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+      <!-- /Page Header -->
+
+      <!-- Content Starts -->
+      <!-- <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-0">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table
+                  datatable
+                  [dtOptions]="dtOptions"
+                  [dtTrigger]="dtTrigger"
+                  class="table table-hover table-center mb-0 datatable"
+                >
+                  <thead>
+                    <tr>
+                      <th class="checkBox">
+                        <label class="container-checkbox">
+                          <input type="checkbox" />
+                          <span class="checkmark"></span>
+                        </label>
+                      </th>
+                      <th>Company</th>
+                      <th>Phone</th>
+                      <th>Billing Street</th>
+                      <th>Billing City</th>
+                      <th>Billing State</th>
+                      <th>Billing Country</th>
+                      <th></th>
+                      <th class="text-right">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let fees of lstFees; let i = index">
+                      <td class="checkBox">
+                        <label class="container-checkbox">
+                          <input type="checkbox" />
+                          <span class="checkmark"></span>
+                        </label>
+                      </td>
+                      <td>
+                        <a href="#" class="avatar"
+                          ><img alt="" src="assets/img/c-logo2.png"
+                        /></a>
+                        <a
+                          href="#"
+                          data-toggle="modal"
+                          data-target="#company-details"
+                          >{{ fees.company }}</a
+                        >
+                      </td>
+                      <td>{{ fees.phone }}</td>
+                      <td>
+                        {{ fees.billingstreet }}
+                      </td>
+                      <td>{{ fees.billingcity }}</td>
+                      <td>{{ fees.billingstate }}</td>
+                      <td>{{ fees.billingcountry }}</td>
+                      <td class="checkBox">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </td>
+                      <td class="text-center">
+                        <div class="dropdown dropdown-action">
+                          <a
+                            href="#"
+                            class="action-icon dropdown-toggle"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
+                            ><i class="material-icons">more_vert</i></a
+                          >
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"
+                              >Edit This Company</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Change Organization Image</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Delete This Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Change Record Owner</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Generate Merge Document</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Print This Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Task For Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Event For Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add Activity Set To Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Contact For Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Opportunity For Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Opportunity For Organization</a
+                            >
+                            <a class="dropdown-item" href="#"
+                              >Add New Project For Organization</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- /Content End -->
+
+
+      <div class="line"></div>
+      <div class="row">
+        <div class="tablemain col-12 col-sm-12 col-md-12 col-lg-8 p-0 m-0">
+          <div class="table-wrapper-scroll-y my-custom-scrollbar w-100">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive text-nowrap">
+                  <table class="table w-100" >
+                    <thead>
+                      <tr>
+                      <th>
+                          N0 
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                       
+                        <th>
+                          Name
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+
+                        <th>
+                          Phone
+
+                          <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div>
+                        </th>
+                        
+                        <th>
+                            Street
+  
+                            <span
+                              class="dropdown"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              ><i
+                                data-icon-name="ChevronDown"
+                                role="presentation"
+                                aria-hidden="true"
+                                class="
+                                  ms-Icon
+                                  root-32
+                                  css-58
+                                  ms-Button-menuIcon
+                                  menuIcon-55
+                                "
+                                style="cursor: pointer"
+                                ></i
+                              >
+                            </span>
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton"
+                            >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                                >Ascending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                                >Descending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter...</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter to this value</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                                >Clear Filter</a
+                              >
+                            </div>
+                          </th>
+                          <th>
+                            Email
+  
+                            <span
+                              class="dropdown"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              ><i
+                                data-icon-name="ChevronDown"
+                                role="presentation"
+                                aria-hidden="true"
+                                class="
+                                  ms-Icon
+                                  root-32
+                                  css-58
+                                  ms-Button-menuIcon
+                                  menuIcon-55
+                                "
+                                style="cursor: pointer"
+                                ></i
+                              >
+                            </span>
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton"
+                            >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                                >Ascending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                                >Descending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter...</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter to this value</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                                >Clear Filter</a
+                              >
+                            </div>
+                          </th>
+                          <th>
+                            Action
+  
+                            <span
+                              class="dropdown"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              ><i
+                                data-icon-name="ChevronDown"
+                                role="presentation"
+                                aria-hidden="true"
+                                class="
+                                  ms-Icon
+                                  root-32
+                                  css-58
+                                  ms-Button-menuIcon
+                                  menuIcon-55
+                                "
+                                style="cursor: pointer"
+                                ></i
+                              >
+                            </span>
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton"
+                            >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                                >Ascending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                                >Descending</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter...</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                                >Filter to this value</a
+                              >
+                              <a href="#" class="dropdown-item"
+                                ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                                >Clear Filter</a
+                              >
+                            </div>
+                          </th>
+                        
+                      
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let fees of lstFees; let i = index">
+                        <td class="checkBox">
+                          <!-- <label class="container-checkbox">
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                          </label> -->
+                          <a href="#">{{i}}</a> 
+                        </td>
+                        <td>
+                          <!-- <a href="#" class="avatar"
+                            ><img
+                              alt=""
+                              src="assets/img/profiles/avatar-11.jpg"
+                          /></a> -->
+                          <a style="color: black;"
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#company-details"
+                            >{{ fees.Name }}</a
+                          >
+                        </td>
+                        <td>{{ fees.phone }}</td>
+                        <td>
+                          {{ fees.Street }}
+                        </td>
+                        <td>{{ fees.Email }}</td>
+                        <td>{{ fees.Action }}</td>
+   
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightsidebaricone col-4 p-0 m-0 bg-white pl-3">
+          <ul style="cursor: pointer" class="nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active "
+                type="button"
+                (click)="hideBlock()"
+                href="#detail"
+                data-toggle="tab"
+                ><span
+                  ><i
+                    aria-hidden="true"
+                    title="Collapse the Factbox pane"
+                    class="ms-Icon ms-Icon--Info  mr-1 d-inline-block"
+                
+                  ></i></span
+                ><h4 class="d-inline-block">Details</h4></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-inline-block"
+                (click)="showBlocks()"
+                href="#task-related"
+                data-toggle="tab"
+                ><span
+                  ><i
+                    aria-hidden="true"
+                    title="Collapse the Factbox pane"
+                    class="ms-Icon ms-Icon--Attach d-inline-block"
+                  ></i></span
+                ><h4 class="d-inline-block">Attachments</h4></a
+              >
+            </li>
+          </ul>
+          <div class=" table-wrapper-scroll-y my-custom-scrollbar">
+       
+          <br>
+          <div class="row">
+            <div class="col ml-3">User No</div>
+              <div class="col offset-4">1000</div>
+          </div>
+          
+
+          <div class="blocks" style="">
+           
+            
+            <div class="row ml-3 mr-3" >
+              <div class="col-md-4 col-lg-4">
+                <div class="card text-white h-100">
+                  <div class="card-body c2 d-block">
+                  
+                   
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-lg-4">
+                <div class="card text-white h-100">
+                  <div class="card-body c2 d-block">
+                   
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card text-white h-100">
+                  <div class="card-body c2 d-block">
+                   
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card text-white h-100">
+                  <div class="card-body c2 d-block">
+                   
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <br>
+            <div _ngcontent-ybk-c27="" class="line"></div>
+
+          </div>
+          </div>
+          
+        </div>
+        
+
+        <!-- /Content End -->
+      </div>
+
+    </div>
+      <!-- /Page Content -->
+  
+      <router-outlet></router-outlet>
+    </div>
+    <!--modal section starts here-->
+    <div class="modal fade" id="add-new-list">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Add New List View</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+  
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form class="forms-sample">
+              <div class="form-group row">
+                <label for="view-name" class="col-sm-4 col-form-label"
+                  >New View Name</label
+                >
+                <div class="col-sm-8">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="view-name"
+                    placeholder="New View Name"
+                  />
+                </div>
+              </div>
+              <div class="form-group row pt-4">
+                <label class="col-sm-4 col-form-label">Sharing Settings</label>
+                <div class="col-sm-8">
+                  <div class="form-group">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input
+                          type="radio"
+                          class="form-check-input"
+                          name="optionsRadios"
+                          id="optionsRadios1"
+                          value="" />
+                        Just For Me <i class="input-helper"></i
+                      ></label>
+                    </div>
+                    <br />
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input
+                          type="radio"
+                          class="form-check-input"
+                          name="optionsRadios"
+                          id="optionsRadios2"
+                          value="option2"
+                          checked="" />
+                        Share Filter with Everyone <i class="input-helper"></i
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="text-center">
+                <button type="submit" class="btn btn-gradient-primary mr-2">
+                  Submit
+                </button>
+                <button class="btn btn-light">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal -->
+    
+    <!-- modal -->
+  
+    <!--system users Modal -->
+    <div
+      class="modal right fade"
+      id="company-details"
+      tabindex="-1"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div class="modal-dialog" role="document">
+        <button
+          type="button"
+          class="close md-close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-content">
+          <div class="whole">
+            <div class="new">
+              <div class="modal-header">
+                <button type="button" class="close xs-close" data-dismiss="modal">
+                  ×
+                </button>
+                <div class="row w-100">
+                  <div class="col-md-12 account d-flex">
+                    <div>
+                      <p class="mb-0"></p>
+                      <span class="modal-title">Company Name </span>
+                      <span class="rating-star"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></span>
+                      <span class="lock"
+                        ><i class="fa fa-lock" aria-hidden="true"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="imgClass">
+                    <img
+                      src="assets/img/c-logo.png"
+                      alt="User"
+                      class="user-image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-5 text-right">
+                    <ul class="list-unstyled list-style-none">
+                      <li class="dropdown list-inline-item">
+                        <br />
+                        <a
+                          class="dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Actions
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Edit This User</a>
+                          <a class="dropdown-item" href="#"
+                            >Change User Image</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Disable This User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Change Record Owner</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Generate Merge Document</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Print This User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Task For User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Event For User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add Activity Set To User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Contact For User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Opportunity For User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Opportunity For User</a
+                          >
+                          <a class="dropdown-item" href="#"
+                            >Add New Project For User</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+             
+            
+           
+            </div>
+            <div class="new2">
+              <div class="modal-body">
+                <div class="task-infos">
+                  <div class="tab-content">
+                    <div class="tab-pane show active" id="task-details">
+                      <div class="crms-tasks">
+                        <div class="Inputs">
+                          <div class="top">
+                            <h2>Comany Name</h2>
+                          </div>
+                          <div class="line"></div>
+                          <div class="row row2">
+                            <div class="col-md-6 my-1">
+                              <label class="lab" for="">Company ID</label>
+  
+                              <input
+                                type="text"
+                                class="form-control special"
+                                disabled
+                                value="124192692"
+                                aria-label="First name"
+                                name="no"
+                                ngModel
+                              />
+  
+                              <!-- <mat-error *ngIf='form.invalid'>{{validateNumber()}}</mat-error> -->
+                            </div>
+                            <div class="col-md-6 my-1">
+                              <label class="lab" for="">Company Name</label>
+  
+                              <input
+                                type="text"
+                                disabled
+                                class="form-control special"
+                                value="Clampet Oil and Gas Corp."
+                                aria-label="First name"
+                                name="no"
+                                ngModel
+                              />
+  
+                              <!-- <mat-error *ngIf='form.invalid'>{{validateNumber()}}</mat-error> -->
+                            </div>
+                          </div>
+  
+                          <div class="top" style="margin-top: 37px">
+                            <h2>Company Details</h2>
+                          </div>
+                          <div class="line"></div>
+                          <div class="row row2">
+                            <div class="col-md-6 my-1">
+                                      <label for="" class="lab">Active</label
+                                      ><div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label" for="flexSwitchCheckChecked"
+    ></label
+  >
+</div>
+                                    
+                            
+                          </div>
+  
+                         
+                        </div>
+                      </div>
+                    </div>
+  
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal-dialog -->
+    </div>
+    <!-- modal -->
+  
+    <!--theme settings modal-->
+  
+    <div
+      class="modal right fade settings"
+      id="settings"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div class="toggle-close">
+        <div class="toggle" data-toggle="modal" data-target="#settings">
+          <i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
+        </div>
+      </div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header p-3">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel2">Settings</h4>
+          </div>
+  
+          <div class="modal-body pb-3">
+            <div class="scroll">
+              <div>
+                <ul class="list-group">
+                  <li class="list-group-item border-0">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="pb-2">Primary Skin</h5>
+                      </div>
+                      <div class="col text-right">
+                        <a
+                          class="reset text-white bg-dark"
+                          id="ChangeprimaryDefault"
+                          >Reset Default</a
+                        >
+                      </div>
+                    </div>
+                    <div class="theme-settings-swatches">
+                      <div class="themes">
+                        <div class="themes-body">
+                          <ul
+                            id="theme-change"
+                            class="
+                              theme-colors
+                              border-0
+                              list-inline-item list-unstyled
+                              mb-0
+                            "
+                          >
+                            <li class="theme-title">Solid Color</li>
+                            <li class="list-inline-item">
+                              <span class="theme-solid-black bg-black"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-solid-pink bg-primary"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="theme-solid-orange bg-secondary1"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-solid-purple bg-success"></span>
+                            </li>
+                            <!-- <li class="list-inline-item"><span class="theme-solid-blue bg-info"></span></li> -->
+                            <li class="list-inline-item">
+                              <span class="theme-solid-green bg-warnings"></span>
+                            </li>
+                            <li><br /></li>
+                            <li><hr /></li>
+  
+                            <li class="theme-title">Gradient Color</li>
+  
+                            <li class="list-inline-item">
+                              <span class="theme-orange bg-sunny-morning"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-blue bg-tempting-azure"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-grey bg-amy-crisp"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-lgrey bg-mean-fruit"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-dblue bg-malibu-beach"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-pink bg-ripe-malin"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="theme-purple bg-plum-plate"></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+  
+              <div>
+                <ul class="list-group">
+                  <li class="list-group-item border-0">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="pb-2">Header Style</h5>
+                      </div>
+                      <div class="col text-right">
+                        <a
+                          class="reset text-white bg-dark"
+                          id="ChageheaderDefault"
+                          >Reset Default</a
+                        >
+                      </div>
+                    </div>
+                    <div class="theme-settings-swatches">
+                      <div class="themes">
+                        <div class="themes-body">
+                          <ul
+                            id="theme-change1"
+                            class="
+                              theme-colors
+                              border-0
+                              list-inline-item list-unstyled
+                              mb-0
+                            "
+                          >
+                            <li class="theme-title">Solid Color</li>
+                            <li class="list-inline-item">
+                              <span class="header-solid-black bg-black"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="header-solid-pink bg-primary"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-solid-orange bg-secondary1"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="header-solid-purple bg-success"></span>
+                            </li>
+                            <!-- <li class="list-inline-item"><span class="header-solid-blue bg-info"></span></li> -->
+                            <li class="list-inline-item">
+                              <span class="header-solid-green bg-warnings"></span>
+                            </li>
+                            <li><br /></li>
+                            <li><hr /></li>
+  
+                            <li class="theme-title">Gradient Color</li>
+  
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color1 bg-sunny-morning"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color2 bg-tempting-azure"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color3 bg-amy-crisp"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color4 bg-mean-fruit"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color5 bg-malibu-beach"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color6 bg-ripe-malin"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="header-gradient-color7 bg-plum-plate"
+                              ></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="list-group m-0">
+                  <li class="list-group-item border-0">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="pb-2">Apps Sidebar Style</h5>
+                      </div>
+                      <div class="col text-right">
+                        <a
+                          class="reset text-white bg-dark"
+                          id="ChagesidebarDefault"
+                          >Reset Default</a
+                        >
+                      </div>
+                    </div>
+                    <div class="theme-settings-swatches">
+                      <div class="themes">
+                        <div class="themes-body">
+                          <ul
+                            id="theme-change2"
+                            class="
+                              theme-colors
+                              border-0
+                              list-inline-item list-unstyled
+                            "
+                          >
+                            <li class="theme-title">Solid Color</li>
+                            <li class="list-inline-item">
+                              <span class="sidebar-solid-black bg-black"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span class="sidebar-solid-pink bg-primary"></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-solid-orange bg-secondary1"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-solid-purple bg-success"
+                              ></span>
+                            </li>
+                            <!-- <li class="list-inline-item"><span class="sidebar-solid-blue bg-info"></span></li> -->
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-solid-green bg-warnings"
+                              ></span>
+                            </li>
+                            <li><br /></li>
+                            <li><hr /></li>
+  
+                            <li class="theme-title">Gradient Color</li>
+  
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color1 bg-sunny-morning"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color2 bg-tempting-azure"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color3 bg-amy-crisp"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color4 bg-mean-fruit"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color5 bg-malibu-beach"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color6 bg-ripe-malin"
+                              ></span>
+                            </li>
+                            <li class="list-inline-item">
+                              <span
+                                class="sidebar-gradient-color7 bg-plum-plate"
+                              ></span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="row Default-font">
+                  <div class="col">
+                    <h5 class="pb-2">Font Style</h5>
+                  </div>
+                  <div class="col text-right">
+                    <a
+                      class="reset text-white bg-dark font-Default"
+                      onclick="ChangeFontDefault()"
+                      >Reset Default</a
+                    >
+                  </div>
+                </div>
+                <ul
+                  class="list-inline-item list-unstyled font-family border-0 p-0"
+                >
+                  <li
+                    class="list-inline-item roboto-font"
+                    onclick="changeFonts1();"
+                  >
+                    Roboto
+                  </li>
+                  <li
+                    class="list-inline-item poppins-font"
+                    onclick="changeFonts2();"
+                  >
+                    Poppins
+                  </li>
+                  <li
+                    class="list-inline-item montserrat-font"
+                    onclick="changeFonts3();"
+                  >
+                    Montserrat
+                  </li>
+                  <li
+                    class="list-inline-item inter-font"
+                    onclick="changeFonts4();"
+                  >
+                    Inter
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!--theme settings-->
+    <div class="sidebar-contact">
+      <div class="toggle" data-toggle="modal" data-target="#settings">
+        <i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
+      </div>
+    </div>
+  </div>

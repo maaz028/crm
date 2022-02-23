@@ -1,0 +1,1626 @@
+<!-- Header -->
+<div class="header" id="heading">
+  <!-- Logo -->
+  <div class="header-left">
+    <a routerLink="/dashboard" class="logo">
+      <img src="assets/img/logo.png" alt="Logo" class="sidebar-logo" />
+      <img src="assets/img/s-logo.png" alt="Logo" class="mini-sidebar-logo" />
+    </a>
+  </div>
+  <!-- /Logo -->
+
+  <a id="toggle_btn" href="javascript:void(0);">
+    <span class="bar-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </a>
+
+  <!-- Header Title -->
+  <div class="page-title-box">
+    <div class="top-nav-search">
+      <a href="javascript:void(0);" class="responsive-search">
+        <i class="fa fa-search"></i>
+      </a>
+      <form action="/search">
+        <input class="form-control" type="text" placeholder="Search here" />
+        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!-- /Header Title -->
+
+  <a id="mobile_btn" class="mobile_btn" href="#sidebar"
+    ><i class="fa fa-bars"></i
+  ></a>
+
+  <!-- Header Menu -->
+  <ul class="nav user-menu">
+    <!-- Search -->
+    <li class="nav-item"></li>
+    <!-- /Search -->
+
+    <!-- Flag -->
+    <li class="nav-item dropdown has-arrow flag-nav">
+      <a
+        class="nav-link dropdown-toggle"
+        data-toggle="dropdown"
+        href="#"
+        role="button"
+      >
+        <img src="assets/img/flags/us.png" alt="" height="20" />
+        <span>English</span>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <a href="javascript:void(0);" class="dropdown-item">
+          <img src="assets/img/flags/us.png" alt="" height="16" /> English
+        </a>
+        <a href="javascript:void(0);" class="dropdown-item">
+          <img src="assets/img/flags/fr.png" alt="" height="16" /> French
+        </a>
+        <a href="javascript:void(0);" class="dropdown-item">
+          <img src="assets/img/flags/es.png" alt="" height="16" /> Spanish
+        </a>
+        <a href="javascript:void(0);" class="dropdown-item">
+          <img src="assets/img/flags/de.png" alt="" height="16" /> German
+        </a>
+      </div>
+    </li>
+    <!-- /Flag -->
+
+    <!-- Notifications -->
+    <li class="nav-item dropdown">
+      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <i class="fa fa-bell-o"></i> <span class="badge badge-pill">3</span>
+      </a>
+      <div class="dropdown-menu notifications">
+        <div class="topnav-dropdown-header">
+          <span class="notification-title">Notifications</span>
+          <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+        </div>
+        <div class="noti-content">
+          <ul class="notification-list">
+            <li class="notification-message">
+              <a routerLink="/activities">
+                <div class="media">
+                  <span class="avatar">
+                    <img alt="" src="assets/img/profiles/avatar-02.jpg" />
+                  </span>
+                  <div class="media-body">
+                    <p class="noti-details">
+                      <span class="noti-title">John Doe</span> added new task
+                      <span class="noti-title"
+                        >Patient appointment booking</span
+                      >
+                    </p>
+                    <p class="noti-time">
+                      <span class="notification-time">4 mins ago</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a routerLink="/activities">
+                <div class="media">
+                  <span class="avatar">
+                    <img alt="" src="assets/img/profiles/avatar-03.jpg" />
+                  </span>
+                  <div class="media-body">
+                    <p class="noti-details">
+                      <span class="noti-title">Tarah Shropshire</span> changed
+                      the task name
+                      <span class="noti-title"
+                        >Appointment booking with payment gateway</span
+                      >
+                    </p>
+                    <p class="noti-time">
+                      <span class="notification-time">6 mins ago</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a routerLink="/activities">
+                <div class="media">
+                  <span class="avatar">
+                    <img alt="" src="assets/img/profiles/avatar-06.jpg" />
+                  </span>
+                  <div class="media-body">
+                    <p class="noti-details">
+                      <span class="noti-title">Misty Tison</span> added
+                      <span class="noti-title">Domenic Houston</span> and
+                      <span class="noti-title">Claire Mapes</span> to project
+                      <span class="noti-title">Doctor available module</span>
+                    </p>
+                    <p class="noti-time">
+                      <span class="notification-time">8 mins ago</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a routerLink="/activities">
+                <div class="media">
+                  <span class="avatar">
+                    <img alt="" src="assets/img/profiles/avatar-17.jpg" />
+                  </span>
+                  <div class="media-body">
+                    <p class="noti-details">
+                      <span class="noti-title">Rolland Webber</span> completed
+                      task
+                      <span class="noti-title"
+                        >Patient and Doctor video conferencing</span
+                      >
+                    </p>
+                    <p class="noti-time">
+                      <span class="notification-time">12 mins ago</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a routerLink="/activities">
+                <div class="media">
+                  <span class="avatar">
+                    <img alt="" src="assets/img/profiles/avatar-13.jpg" />
+                  </span>
+                  <div class="media-body">
+                    <p class="noti-details">
+                      <span class="noti-title">Bernardo Galaviz</span> added new
+                      task <span class="noti-title">Private chat module</span>
+                    </p>
+                    <p class="noti-time">
+                      <span class="notification-time">2 days ago</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="topnav-dropdown-footer">
+          <a routerLink="/activities">View all Notifications</a>
+        </div>
+      </div>
+    </li>
+    <!-- /Notifications -->
+
+    <!-- Message Notifications -->
+    <li class="nav-item dropdown">
+      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <i class="fa fa-comment-o"></i> <span class="badge badge-pill">8</span>
+      </a>
+      <div class="dropdown-menu notifications">
+        <div class="topnav-dropdown-header">
+          <span class="notification-title">Messages</span>
+          <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+        </div>
+        <div class="noti-content">
+          <ul class="notification-list">
+            <li class="notification-message">
+              <a href="#">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">
+                      <img alt="" src="assets/img/profiles/avatar-09.jpg" />
+                    </span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Richard Miles </span>
+                    <span class="message-time">12:28 AM</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a href="#">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">
+                      <img alt="" src="assets/img/profiles/avatar-02.jpg" />
+                    </span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">John Doe</span>
+                    <span class="message-time">6 Mar</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a href="#">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">
+                      <img alt="" src="assets/img/profiles/avatar-03.jpg" />
+                    </span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Tarah Shropshire </span>
+                    <span class="message-time">5 Mar</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a href="#">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">
+                      <img alt="" src="assets/img/profiles/avatar-05.jpg" />
+                    </span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author">Mike Litorus</span>
+                    <span class="message-time">3 Mar</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="notification-message">
+              <a href="#">
+                <div class="list-item">
+                  <div class="list-left">
+                    <span class="avatar">
+                      <img alt="" src="assets/img/profiles/avatar-08.jpg" />
+                    </span>
+                  </div>
+                  <div class="list-body">
+                    <span class="message-author"> Catherine Manseau </span>
+                    <span class="message-time">27 Feb</span>
+                    <div class="clearfix"></div>
+                    <span class="message-content"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="topnav-dropdown-footer">
+          <a href="#">View all Messages</a>
+        </div>
+      </div>
+    </li>
+
+   <li class="nav-item dropdown">
+      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <i class="fa fa-cog"></i>
+      </a>
+      <div class="dropdown-menu notifications">
+        <div class="topnav-dropdown-header">
+          <span class="notification-title">Setting</span>
+    
+        </div>
+        <div class="noti-content ">
+            <div class="p-3">
+                <h4 id="sidebar-no-header-title">Dynamics 365 Business Central</h4>
+                <ul style="list-style-type:none">
+                   <li><a href="#">Personalize</a></li>
+                    <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#add_activity" >My Settings</a></li>
+                
+                   <li> <a href="#">Assisted setup</a></li>
+                   <li> <a href="#">Advanced settings</a></li>
+
+                    
+
+
+
+                </ul>
+                <nav class="mb-3">
+                  
+                    
+                </nav>
+                <a variant="primary">Close Sidebar</a>
+              </div>
+        </div>
+        <div class="topnav-dropdown-footer">
+          <a routerLink="/activities">View all Notifications</a>
+        </div>
+      </div>
+    </li>
+
+    <!-- /Message Notifications -->
+
+    <li class="nav-item dropdown has-arrow main-drop">
+      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <span class="user-img"
+          ><img src="assets/img/profiles/avatar-21.jpg" alt="" />
+          <span class="status online"></span
+        ></span>
+        <span>Admin</span>
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/profile">My Profile</a>
+        <!-- <a class="dropdown-item" routerLink="/settings">Settings</a> -->
+        <a class="dropdown-item" routerLink="/login">Logout</a>
+      </div>
+    </li>
+  </ul>
+  <!-- /Header Menu -->
+
+  <!-- Mobile Menu -->
+  <div class="dropdown mobile-user-menu">
+    <a
+      href="#"
+      class="nav-link dropdown-toggle"
+      data-toggle="dropdown"
+      aria-expanded="false"
+      ><i class="fa fa-ellipsis-v"></i
+    ></a>
+    <div class="dropdown-menu dropdown-menu-right">
+      <a class="dropdown-item" routerLink="/profile">My Profile</a>
+      <!-- <a class="dropdown-item" routerLink="/settings"
+        ><i class="fa fa-cog" aria-hidden="true"></i>Settings</a -->
+      >
+      <a class="dropdown-item" routerLink="/login">Logout</a>
+    </div>
+  </div>
+  <!-- /Mobile Menu -->
+</div>
+<!-- /Header -->
+   <!-- My Setting -->
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="add_activity"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content modal-dialog-scrollable">
+      <div class="modal-header">
+        <h3>Edit - My Settings - INTERNEE1</h3>
+
+        <div class="float-right">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+            
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <span   
+            ><i
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs"
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body bg-white">
+        <div class="container-fluid nowrap">
+          <div class="row">
+            <div class="col-12 col-sm-3 mt-3">Role</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="Business Manager"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            <div
+              class="col-2 col-sm-1 mt-3 mr-2"
+              data-toggle="modal"
+              data-dismiss="modal"
+              data-target="#add_role"
+            >
+              <i
+                class="ms-Icon ms-Icon--Add"
+                style="color: #007e87"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Company</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="CRONUS UK Ltd."
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            <div class="col-2 col-sm-1 mt-3"
+             data-toggle="modal"
+              data-dismiss="modal"
+              data-target="#allow_company">
+              <i
+                class="ms-Icon ms-Icon--Add"
+                style="color: #007e87"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Work Date</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="date"
+                placeholder="12/12/2020"
+                class="form-control special"
+              />
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Region</div>
+            <div class="col-8 col-sm-2"
+            >
+              <input
+                type="text"
+                disabled=""
+                value="English (United States)"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            <div class="col-2 col-sm-1 mt-3"
+              data-toggle="modal"
+              data-dismiss="modal"
+              data-target="#region">
+              <i
+                class="ms-Icon ms-Icon--Add"
+                style="color: #007e87"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Language</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="English (United States)"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            <div class="col-2 col-sm-1 mt-3"
+               data-toggle="modal"
+              data-dismiss="modal"
+              data-target="#Language">
+              <i
+                class="ms-Icon ms-Icon--Add"
+                style="color: #007e87"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Time Zone</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="(UTC+05:00) Ashgabat, Tashkent"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            <div class="col-2 col-sm-1 mt-3"
+               data-toggle="modal"
+              data-dismiss="modal"
+              data-target="#Timezone">
+              <i
+                class="ms-Icon ms-Icon--Add"
+                style="color: #007e87"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Notifications</div>
+            <div class="col-8 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="change receive notification"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Teaching Tips</div>
+            <div class="col-8 col-sm-2 ml-4">
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckChecked"
+                  checked
+                />
+                <label
+                  class="form-check-label"
+                  for="flexSwitchCheckChecked"
+                ></label>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2 mt-3">
+            <div class="col-12"><b>Files</b></div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-sm-3 mt-3">Cloud Storage</div>
+            <div class="col-10 col-sm-2">
+              <input
+                type="text"
+                disabled=""
+                value="INTERNEE1's files on OneDrive"
+                aria-label="First name"
+                name="no"
+                ngmodel=""
+                class="form-control special"
+              />
+            </div>
+            
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 mt-3"><b>Security</b></div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 mt-3">
+              Your last sign in was on 12/22/21 04:55 PM.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- My setting End -->
+
+<!-- Add role -->
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="add_role"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div
+      class="modal-content modal-dialog-scrollable"
+      style="margin-top: 5rem; height: 80%">
+
+      <div class="row">
+        <div class="col-8">
+      <h2 class="mt-2 ml-2">Available Roles
+        <!-- <input type="text"> -->
+         <i class="fa fa-search ml-4" ></i>
+         <i  class="ms-Icon ms-Icon--More ml-4 pt-2"></i>
+        
+      </h2>
+      
+     
+      </div>
+    
+        <div class="col mr-3 mt-3 ">
+          <button
+            type="button mt-2 pr-4 float-right"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+              style="margin-right: 3px;"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <span
+            ><i 
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs float-right mt-2 mr-2"
+              style="margin-right: 3px;"
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table w-75">
+            
+          
+           
+            <tbody>
+                  <tr>
+                <td scope="col" class="pl-5">Display Name</td>
+               
+                <td scope="col mr-5"> <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                              hideicon
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu mr-4"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div></td>
+                          <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#add_activity" data-dismiss="modal" data-toggle="modal">
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Company Hub</a>
+                </td>
+          
+                <td class="mr-3"><i class="fa fa-ellipsis-v mr-3  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Accountant
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v hideicon "></i></td>
+               
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Business Manger
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Business Manager Evaluation
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+                  Service Manager
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Sales Order Processor
+                </td>
+            
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Manufacturing Manager
+                </td>
+              
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          type="button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- Add Role End -->
+
+<!-- Allow Company -->
+
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="allow_company"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div
+      class="modal-content modal-dialog-scrollable"
+      style="margin-top: 5rem; height: 80%">
+
+      <div class="row">
+        <div class="col-8">
+      <h2 class="mt-2 ml-2">Allowed Companies
+        <!-- <input type="text"> -->
+         <i class="fa fa-search ml-4" ></i>
+         <i  class="ms-Icon ms-Icon--More ml-4 pt-2"></i>
+        
+      </h2>
+      
+     
+      </div>
+    
+        <div class="col mr-3 mt-3 ">
+          <button
+            type="button mt-2 pr-4 float-right"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+              style="margin-right: 3px;"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <span
+            ><i 
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs float-right mt-2 mr-2"
+              style="margin-right: 3px;"
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table w-75">
+            
+          
+           
+            <tbody>
+                  <tr>
+                <td scope="col" class="pl-5">Name</td>
+               
+                <td scope="col mr-5"> <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                              hideicon
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu mr-4"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div></td>
+                          <td>Evaluation Company</td>
+                          <td>Setup Status</td>
+              </tr>
+              <tr>
+                <td class="mr-5">
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >CRONUS UK LTD
+          
+                <td class="mr-3"><i class="fa fa-ellipsis-v mr-3  hideicon "></i></td>
+                <td><div class="form-check pr-4">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+  <label class="form-check-label" for="flexCheckCheckedDisabled">
+  </label>
+</div></td>
+<td> Completed</td>
+              </tr>
+              
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          type="button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          ok
+        </button>
+        <button type="button" class="btn btn-primary">Close</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- Allow Company End -->
+
+<!-- Region -->
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="region"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div
+      class="modal-content modal-dialog-scrollable"
+      style="margin-top: 5rem; height: 80%">
+
+      <div class="row">
+        <div class="col-8">
+      <h2 class="mt-2 ml-2">Available Languages
+        <!-- <input type="text"> -->
+          <i class="fa fa-search ml-4" ></i>
+         <i  class="ms-Icon ms-Icon--More ml-4 pt-2"></i>
+        
+      </h2>
+      
+     
+      </div>
+    
+        <div class="col mr-3 mt-3">
+          <button
+            type="button mt-2 pr-4 float-right"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+           
+          >
+            <span aria-hidden="true"  style="margin-right: 3px; margin-top: 3px;">&times;</span>
+          </button>
+          <span
+            ><i 
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs float-right mt-2 mr-2"
+            
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table w-75">
+            
+          
+           
+            <tbody>
+                  <tr>
+                <td scope="col" class="pl-5">Name</td>
+               
+                <td scope="col mr-5"> <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                              hideicon
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu mr-4"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div></td>
+                        
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+                 Albanian (Albania)
+                </td>
+          
+                <td class="mr-3"><i class="fa fa-ellipsis-v mr-3  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+Alsatian (France)
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v hideicon "></i></td>
+                 <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >
+Afrikaans (South Africa)
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Arabic (Algeria)
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+                 Arabic (Bahrain)
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Arabic (Iraq)
+                </td>
+            
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+                  Bangla (India)
+                </td>
+              
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          type="button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          Ok
+        </button>
+        <button type="button" class="btn btn-primary">Cancel</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- Region End -->
+
+<!-- Language -->
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="Language"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div
+      class="modal-content modal-dialog-scrollable"
+      style="margin-top: 5rem; height: 80%">
+
+      <div class="row">
+        <div class="col-8">
+      <h2 class="mt-2 ml-2">Available Languages
+        <!-- <input type="text"> -->
+       <i class="fa fa-search ml-4" ></i>
+         <i  class="ms-Icon ms-Icon--More ml-4 pt-2"></i>
+        
+      </h2>
+      
+     
+      </div>
+    
+        <div class="col mr-3 mt-3">
+          <button
+            type="button mt-2 pr-4 float-right"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+           
+          >
+            <span aria-hidden="true"  style="margin-right: 3px; margin-top: 3px;">&times;</span>
+          </button>
+          <span
+            ><i 
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs float-right mt-2 mr-2"
+            
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table w-75">
+            
+          
+           
+            <tbody>
+                  <tr>
+                <td scope="col" class="pl-5">Name</td>
+               
+                <td scope="col mr-5"> <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu mr-4"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div></td>
+                          <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+                
+English (United States)
+                </td>
+          
+                <td class="mr-3"><i class="fa fa-ellipsis-v mr-3  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+	
+Chinese (Simplified, PRC)
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v hideicon "></i></td>
+               
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >
+Croatian (Croatia
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >Danish (Denmark)
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+               
+Finnish (Finland)
+
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >French (Canada)
+                </td>
+            
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+                  Bangla (India)
+                </td>
+              
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          type="button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          Ok
+        </button>
+        <button type="button" class="btn btn-primary">cancel</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- Language End -->
+<!-- Time Zone -->
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  id="Timezone"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div
+      class="modal-content modal-dialog-scrollable"
+      style="margin-top: 5rem; height: 80%">
+
+      <div class="row">
+        <div class="col-8">
+      <h2 class="mt-2 ml-2">Time Zone
+        <!-- <input type="text"> -->
+         <i class="fa fa-search"></i>
+       
+        
+      </h2>
+      
+     
+      </div>
+    
+        <div class="col mr-3 mt-3">
+          <button
+            type="button mt-2 pr-4 float-right"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+           
+          >
+            <span aria-hidden="true"  style="margin-right: 3px; margin-top: 3px;">&times;</span>
+          </button>
+          <span
+            ><i 
+              aria-hidden="true"
+              title=" Show wide Layouts View"
+              class="fa fa-expand fa-xs float-right mt-2 mr-2"
+            
+            ></i
+          ></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="table w-75">
+            
+          
+           
+            <tbody>
+                  <tr>
+                <td scope="col" class="pl-5">Name</td>
+               
+                <td scope="col mr-5"> <span
+                            class="dropdown"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            ><i
+                              data-icon-name="ChevronDown"
+                              role="presentation"
+                              aria-hidden="true"
+                              class="
+                                ms-Icon
+                                root-32
+                                css-58
+                                ms-Button-menuIcon
+                                menuIcon-55
+                              "
+                              style="cursor: pointer"
+                              ></i
+                            >
+                          </span>
+                          <div
+                            class="dropdown-menu mr-4"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Ascending pr-2"></i
+                              >Ascending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Descending pr-2"></i
+                              >Descending</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter...</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--Filter pr-2"></i
+                              >Filter to this value</a
+                            >
+                            <a href="#" class="dropdown-item"
+                              ><i class="ms-Icon ms-Icon--ClearFilter pr-2"></i
+                              >Clear Filter</a
+                            >
+                          </div></td>
+                          <td>Display Name</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+                
+
+              Dateline Standard Time	
+
+                </td>
+          
+                <td class="mr-3"><i class="fa fa-ellipsis-v mr-3  hideicon "></i></td>
+                <td>(UTC-12:00) International Date Line West</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >	
+	
+
+               UTC-11	
+
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v hideicon "></i></td>
+                 <td>	(UTC-11:00) Coordinated Universal Time-11</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >
+
+                 Aleutian Standard Time	
+                </td>
+                
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+                <td>(UTC-10:00) Aleutian Islands</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i
+                  >
+                Hawaiian Standard Time	
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+                <td>(UTC-10:00) Hawaii</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+               
+
+                Marquesas Standard Time	
+
+                </td>
+               
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+                <td>(UTC-09:30) Marquesas Islands</td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+                 
+                Alaskan Standard Time	
+            
+                <td><i class="fa fa-ellipsis-v  hideicon"></i></td>
+                <td>(UTC-09:00) Alaska
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="ms-Icon ms-Icon--Forward mr-4  hideicon"
+                    aria-hidden="true"
+                  ></i>
+               
+                 Alaskan Standard Time	
+                </td>
+              
+                <td><i class="fa fa-ellipsis-v  hideicon "></i></td>
+                <td>(UTC-09:00) Alaska</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          type="button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          Ok
+        </button>
+        <button type="button" class="btn btn-primary">Cancel</button>
+      </div>
+      ...
+    </div>
+  </div>
+</div>
+<!-- Timezone End -->
+

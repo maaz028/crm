@@ -1,0 +1,300 @@
+#backicon {
+    margin: 20px;
+  }
+  .scrollme {
+      overflow-x: auto;
+  }
+  .spedificNavbar>ul>li{margin-right: 2rem;}
+  .navbar {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+     justify-content:start !important; 
+      padding: 0.5rem 1rem;
+  }
+   .navbaritem>ul {
+    list-style: none;
+    text-align: center;
+  } 
+  .navbaritem>ul>li>a{
+    margin-left: 2rem;
+  }
+   ul > li {
+    display: inline;
+  
+  } 
+  .icons>ul>li{
+  margin-left: 15px;
+  color:#007E87
+   
+  }
+  
+  
+  .iconbackward {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .navbaritem {
+    display: inline-block;
+    width: 65vw;
+  }
+  .line1 {
+    height: 1px;
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  
+  .spedificNavbar {
+    display: flex;
+    margin-top: 5px;
+  }
+  /* Dropdown Button */
+  /* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color: black;
+  }
+  
+  .accordion-header {
+    padding: 15px 2px;
+  }
+  .customertitle{
+    display: flex;
+  }
+  .mainnavebar{
+  
+    display: flex;
+   
+  }
+  .mainnavbaritem{
+    padding-left: 15px;
+  }
+  
+  
+  .customer {
+    display: flex;
+  
+  }
+  
+  .ms-nav-content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    width: 90%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .task-dialog > .ms-nav-content .task-dialog-header .content-header {
+    padding: 0 24px 17px;
+    margin-bottom: 0;
+  }
+  .content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 18px;
+    margin-bottom: 8px;
+    flex: 0 0 auto;
+  }
+  
+  
+  .nav>a{
+  color: black;
+  }
+  
+  @media screen and (max-width: 650px) {
+    #mainnav{
+      
+     
+  
+      margin-left: -10px;
+    }
+    #contact{
+      display: block;
+      width: 100%;
+    }
+    .icons>ul>li{
+  margin-left: 10px;
+  
+  
+     
+    
+  
+    }
+  }
+  @media screen and (max-width: 450px) {
+    #delete{
+      display: none;
+    }
+    #mainnav{
+     
+      margin-left: -10px;
+    }
+    .icons{
+      width: 100%;
+      font-weight: 700;
+     
+     margin-left: 1rem;
+  
+    }
+  }
+  @media screen and (max-width: 1470px) {
+  #customer{
+    display: none;
+  }
+  }
+  @media screen and (max-width: 1385px) {
+  #newDocument{
+    display: none;
+  }
+  
+  }
+  @media screen and (max-width: 1250px) {
+  #report{
+    display: none;
+  }
+  }
+  @media screen and (max-width: 110px) {
+  #process{
+    display: none;
+  }
+  }
+  
+  /* for table y-scrollbar */
+  .my-custom-scrollbar {
+  position: relative;
+  height: 70vh;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+  .row .col-md-4 {
+      position: unset;
+      padding: 0px !important;
+      padding-right: 5px !important;
+  }
+  .rightsidebaricone>ul>li>a{
+    color: #505c6d;
+  }
+  .rightsidebaricone>ul>li>i{
+    color: #505c6d;
+  }
+  
+  /* #search-form {
+    display: none;
+  
+  }
+  
+  .fas {
+    margin-right: 10px;
+  }
+  
+  
+  #fa{
+      margin-right: 20px;
+  
+  }
+  .line{
+      width:  460vh;
+      height: 1px;
+  }
+  
+  .searchContainer{
+      margin-top: 5px;
+      display: flex;
+  }
+  .form-group{
+      border-radius: 5px;
+  }
+  .row{
+      display: flex;
+  }
+  
+  
+  
+  
+   */
+  @media screen and (max-width: 1000px) {
+  .rightsidebaricone{
+    display: none;
+  }
+  .tablemain{
+    display: block;
+    width: 100%;
+   
+  }
+  }
+  .col-lg-6 , .col-md-12{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .col-4{
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  
+  tr:hover{
+    background: #d8e2f5;
+  }
+  
+  
+.row{
+    width: 100%;
+}  
+.table td{
+  font-size: 11pt;
+}
